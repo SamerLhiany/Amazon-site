@@ -1,0 +1,539 @@
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+@font-face {font-family: "Amazon Ember"; src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot"); src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff") format("woff"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.svg#Amazon Ember") format("svg"); }
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Amazon Ember;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    height: 6rem;
+}
+
+.container1 .amazon-logo {
+    background: url('/img/sprite.png') no-repeat -10px -51px;
+    width: 96px;
+    height: 29px;
+    margin: 2rem;
+   
+}
+
+.container1 .deliver-to-israel-container {
+    display: flex;
+    
+   
+}
+
+.container1 .deliver-to-israel-container .location {
+	background: url('/img/sprite.png') no-repeat -71px -379px;
+	width: 15px;
+	height: 17px;
+  margin-top: 1.3rem;
+  opacity: 1;
+  padding: 0.9rem;
+}
+
+.container1 .deliver-to-israel-container .deliver-to-israel{
+    display: flex;
+    flex-direction: column;
+    font-family: Amazon Ember;
+}
+
+.container1 .deliver-to-israel-container .deliver-to-israel .deliver-to {
+    font-size: 12px;
+    color: white;
+    opacity: 0.8;
+}
+
+.container1 .deliver-to-israel-container .deliver-to-israel .israel {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    
+}
+ 
+  .dropdown {
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadada;
+    height: 4vh;
+    width: 2.5vw;
+    margin-left: 2rem;
+    
+    
+  }
+  
+  .container1-2 {
+      display: flex;
+  }
+  
+.dropbtn {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    border-radius: 10% ;
+    border: solid 0.1px #dadada;
+    font-size: 13px;
+    height: 4vh;
+    width: 2.8vw;
+    padding-left: 1rem ;
+    font-family: Amazon Ember;
+    cursor: pointer;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #dadadae3;
+  }
+  
+  .dropdown .arrow {
+    display: flex;
+    position: absolute;
+    background: url('/img/sprite2.png') no-repeat -760px -26px;
+    width: 12px;
+    height: 18px;
+    margin-left: 7rem;
+    margin-top: -1rem;
+    transform: rotate(90deg);
+    zoom:0.35;
+    opacity: 0.7;
+    
+  }
+
+  #input {
+      width: 110rem;
+  }
+
+  .container1-2 a {
+      background:#FEBD69 ;
+      border-top-right-radius: 10% ;
+      border-bottom-right-radius: 10%;
+      width: 4rem;
+
+  }
+
+  .container1 .search  img {
+     margin-top: 8rem;
+     margin-left: 7rem;
+      
+     zoom:0.086;
+
+  }
+
+  .container1 .flag img {
+    zoom:0.06;
+  }
+
+  .container1 .deliver-to-israel-container .wagon {
+    background: url('/img/sprite3.png') no-repeat -218px -337px;
+	width: 41px;
+	height: 28px;
+  }
+
+  
+.container1 .signin-acount-list {
+  display: flex;
+  
+ 
+}
+
+.container1 .signin-acount-list .deliver-to-israel{
+  display: flex;
+  flex-direction: column;
+  font-family: Amazon Ember;
+}
+
+.container1 .signin-acount-list .deliver-to-israel .deliver-to {
+  font-size: 12px;
+  color: white;
+  
+}
+
+.container1 .signin-acount-list .deliver-to-israel .israel {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  
+}
+  
+.container1 .returns-orders {
+  display: flex;
+  
+ 
+}
+
+.container1 .returns-orders .deliver-to-israel{
+  display: flex;
+  flex-direction: column;
+  font-family: Amazon Ember;
+}
+
+.container1 .returns-orders .deliver-to-israel .deliver-to {
+  font-size: 12px;
+  color: white;
+  
+}
+
+.container1 .returns-orders .deliver-to-israel .israel {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  
+}
+  
+.container1 .wagon-cart {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  
+ 
+}
+
+.container1 .wagon-cart .deliver-to-israel{
+  display: flex;
+  flex-direction: row;
+  font-family: Amazon Ember;
+}
+
+.container1 .wagon-cart .deliver-to-israel .wagon {
+  background: url('/img/sprite3.png') no-repeat -218px -337px;
+	width: 41px;
+	height: 28px;
+  color: white;
+  
+}
+
+.container1 .wagon-cart .deliver-to-israel .israel {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  margin-top: 1.5rem;
+  margin-right: 2rem;
+
+}
+
+.container1 .wagon-cart .deliver-to-israel .amount {
+  position: absolute;
+  color: #F08804;
+  font-size: 1.8rem;
+  font-family: Amazon Ember;
+  margin-left: 1.9rem;
+  margin-top: -1rem;
+  
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height:4vh ;
+  width:100vw ;
+  background: #232F3E;
+}
+
+.container2 .ALL {
+  display: flex;
+  cursor: pointer;
+}
+
+.container2 .ALL img {
+zoom: 8%;
+}
+
+.container2 .ALL h2 {
+  margin-top: 1.2rem;
+  margin-left: -0.8rem;
+  color: white;
+  font-family: Amazon Ember;
+  font-size: 1.3rem;
+}
+
+.container2-right p {
+  font-family: Amazon Ember;
+  color: white;
+  font-weight: 800;
+  font-size: 1.3rem;
+  padding: 2rem;
+  
+
+}
+
+.container2 .container2-left {
+  display: flex;
+  
+}
+
+.container2 .container2-left .Todays-deals {
+  font-family: Amazon Ember;
+  color: white;
+  font-weight: 200;
+  font-size: 1.3rem;
+  padding: 1.1rem;
+  cursor: pointer;
+}
+.container2 .container2-left .Customer-Service {
+  font-family: Amazon Ember;
+  color: white;
+  font-weight: 200;
+  font-size: 1.3rem;
+  padding: 1.1rem;
+  cursor: pointer;
+}
+.container2 .container2-left .Registry {
+  font-family: Amazon Ember;
+  color: white;
+  font-weight: 200;
+  font-size: 1.3rem;
+  padding: 1.1rem;
+  cursor: pointer;
+}
+.container2 .container2-left .Gift-Cards {
+  font-family: Amazon Ember;
+  color: white;
+  font-weight: 200;
+  font-size: 1.3rem;
+  padding: 1.1rem;
+  cursor: pointer;
+}
+.container2 .container2-left .Sell {
+  font-family: Amazon Ember;
+  color: white;
+  font-weight: 200;
+  font-size: 1.3rem;
+  padding: 1.1rem;
+  cursor: pointer;
+}
+.container2 .container2-left .Local-Delivery-in-Israel {
+  font-family: Amazon Ember;
+  color: white;
+  font-weight: 200;
+  font-size: 1.3rem;
+  padding: 1.1rem;
+  cursor: pointer;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  border-bottom: ;
+  background: #FAFAFA;
+}
+
+.container3-words {
+  font-family: Amazon Ember;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.container3-words:hover {
+  color: #E47911;
+  border-bottom: 2px solid#E47911;
+}
+
+.container3 .container3-words span {
+ padding-left: 1rem;
+ font-weight: 900;
+}
+
+.kindle-paperwhite {
+  display: flex;
+  justify-content: center;
+}
+
+.kindle-paperwhite span {
+  padding-top: 2rem;
+  font-family: Amazon Ember;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+
+.ul-top ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left:24rem;
+}
+
+.ul-top ul li {
+  padding: 0.2rem;
+  font-size: 1.1rem;
+}
+
+.grid-container .left-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-grid p {
+  font-family: Amazon Ember;
+  font-size: 1.1rem;
+}
+
+.right-grid p span {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.center-grid {
+display: flex;
+flex-direction: column;
+font-family: Amazon Ember;
+
+
+}
+
+.right-grid {
+  display: flex;
+  flex-direction: column;
+  font-family: Amazon Ember;
+  width:12vw;
+  border:1px solid rgba(0, 0, 0, 0.233) ;
+  padding: 20px;
+
+}
+
+
+
+.button1 button {
+  background: #F0F2F2;
+ border-radius: 10px;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding: 1px;
+ font-family: Amazon Ember;
+ cursor: pointer;
+  
+} 
+
+.button1 button img {
+  zoom: 5%;
+}
+
+.button2 button {
+  background: #FFD814;
+  border-radius: 10px;
+  height: 3vh;
+  width: 10vw;
+  border: none;
+  font-family: Amazon Ember;
+  cursor: pointer;
+} 
+
+.button3 button {
+  background: #FA8900;
+  border-radius: 10px;
+  height: 3vh;
+  width: 10vw;
+  border: none;
+  font-family: Amazon Ember;
+  cursor: pointer;
+} 
+
+.add-to-list{
+background : #F0F2F4;
+height: 3vh;
+width: 10vw;
+font-family: Amazon Ember;
+text-align:start ;
+border-radius: 4px;
+border: 1px black solid;
+cursor: pointer;
+
+}
+
+.right-grid p {
+  font-size: 1.2rem;
+  
+}
+
+.right-grid p img {
+  zoom: 0.04;
+}
+
+.delever-to-icon a{
+font-size: 1.2rem;
+color:#0400f8a8 ;
+}
+
+.delever-to-icon img {
+ zoom: 1%;
+ 
+}
+
+.in-stok {
+  font-size: 1.6rem ;
+  color: #007600;
+}
+
+
+.secure-transaction img {
+  zoom: 60%; 
+  padding-right: 15px;
+}
+
+.buttom ul li {
+  font-family: Amazon Ember;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-family: Amazon Ember;
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+  font-family: Amazon Ember;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+h6 {
+  color: #d16600;
+  font-size: 1.7rem;
+
+}
+
+.flex-row p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.flex-column .see-our-price {
+  font-size: 1.3rem;
+}
+
+.flex-column button {
+  background:  #FFD814;
+  border: none;padding: 6px;
+  border-radius: 10px;
+
+
+}

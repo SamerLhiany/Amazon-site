@@ -1,0 +1,14 @@
+
+.border-white:hover{
+    outline: 2px white solid;
+    
+}
+
+.border-hover-zoom img {
+    zoom: 10%;
+    border: black 1px solid;
+}
+
+.font-size {
+    font-size: 1.2rem;
+}
